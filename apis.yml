@@ -1,4 +1,16 @@
 aid: simple
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simple.png
 name: Simple
 description: Simple is a company surfaced as a portfolio company of 500-global, anthemis and added to
   the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -13,7 +25,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
+x-note: 'Enrichment 2026-07-21: simple.com 301-redirects to PNC (www.pnc.com/.../simple-checking);
+  developer.simple.com and api.simple.com are NXDOMAIN. This is the defunct Simple neobank
+  (Simple Finance Technology, acquired by BBVA, shut down May 2021); the domain now belongs
+  to PNC. No independent API/developer surface exists to enrich.'
 tags:
 - Company
 apis: []
@@ -25,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://simple.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
