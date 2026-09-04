@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://simple.com', status: 301, note: 'declared website redirects to https://www.pnc.com/en/personal-banking/banking/checking/simple-checking.html — a different registrable domain (simple.com -> pnc.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simple.png
 name: Simple
 description: Simple is a company surfaced as a portfolio company of 500-global, anthemis and added to
