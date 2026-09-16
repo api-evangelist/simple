@@ -18,11 +18,14 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://simple.com
+    status: 301
+    note: declared website redirects to https://www.pnc.com/en/personal-banking/banking/checking/simple-checking.html
+      — a different registrable domain (simple.com -> pnc.com), possible rename or acquisition (probed
+      2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://simple.com', status: 301, note: 'declared website redirects to https://www.pnc.com/en/personal-banking/banking/checking/simple-checking.html — a different registrable domain (simple.com -> pnc.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simple.png
 name: Simple
 description: Simple is a company surfaced as a portfolio company of 500-global, anthemis and added to
@@ -38,14 +41,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 x-status: defunct
-x-note: 'Enrichment 2026-07-21: simple.com 301-redirects to PNC (www.pnc.com/.../simple-checking);
-  developer.simple.com and api.simple.com are NXDOMAIN. This is the defunct Simple neobank
-  (Simple Finance Technology, acquired by BBVA, shut down May 2021); the domain now belongs
-  to PNC. No independent API/developer surface exists to enrich.'
+x-note: 'Enrichment 2026-07-21: simple.com 301-redirects to PNC (www.pnc.com/.../simple-checking); developer.simple.com
+  and api.simple.com are NXDOMAIN. This is the defunct Simple neobank (Simple Finance Technology, acquired
+  by BBVA, shut down May 2021); the domain now belongs to PNC. No independent API/developer surface exists
+  to enrich.'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
